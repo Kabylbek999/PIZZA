@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+font-family: sans-serif;
+border: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(114deg, rgba(239, 239, 239, 0.00) -2.01%, rgba(239, 239, 239, 0.20) 103.74%);
+    backdrop-filter: blur(388.5px);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    color: #363853;
+font-family: Rubik;
+font-size: 33px;
+font-weight: 500;
+letter-spacing: 1.65px;
+}
+.header span{
+    color: #FF6838;
+font-family: Rubik;
+font-size: 33px;
+font-weight: 500;
+letter-spacing: 1.65px;
+}
+    nav a{
+        color: #363853;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+margin: 0 40px; 
+}
+nav {
+   margin-left: 190px;
+  
+}
+nav a:hover{
+    color: #FF6838;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 1s;
+    font-size: 20px;
+}
+ .header button{
+    border-radius: 5px;
+background: var(--Secondary, #FF7A50);
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+padding: 14px 25px;
+color: var(--main-back-white, #FFF);
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+ }
+ .icon {
+display: flex;
+gap: 100px;    
+ }
+ /* THE END  */
+ #hero{
+margin: 100px 0;
+ }
+ .hero h1{
+    color: var(--Primary, #363853);
+font-family: Rubik;
+font-size: 66px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+ }
+ .hero span{
+    color: var(--Secondary, #FF7A50);
+font-family: Rubik;
+font-size: 66px;
+font-weight: 500;
+text-transform: capitalize;
+ }
+ .hero  p{
+    color: var(--Primary, #363853);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-transform: capitalize;
+    margin: 35px 0;
+ }
+ .hero button{
+    border-radius: 5px;
+background: var(--Secondary, #FF7A50);
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+color: var(--main-back-white, #FFF);
+text-align: center;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+padding: 10px 20px;
+
+ }
+ .black{
+display: flex;
+align-items: center;
+gap: 30px ;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.maim-img{
+    width: 685px;
+    height: 680px;
+}
+.hero-img{
+    position: relative;
+}
+.hero-img  .he {
+position: absolute;
+top:100px;
+left: 90px;
+}
+.hero-img .her{
+    position: absolute;
+    top: 10px;
+    left: 230px;
+}
+.hero-img .herd{
+    position: absolute;
+    top: 60px;
+    left: 500px;
+}
+.hero-img .hh1{
+    position: absolute;
+    bottom: 360px;
+    right: -35px;
+}
+.hero-img .time{
+    position: absolute;
+    top:0px ;
+    right:70px;
+
+}
+/* THE END  */
+.shark h1{
+    color: var(--Primary, #363853);
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 40px 0;
+}
+.shark span{
+    color: var(--Secondary, #FF7A50);
+font-family: Rubik;
+font-size: 36px;
+font-weight: 500;
+text-transform: capitalize;
+}
+.shark-btns .svg path{
+    fill:#363853;
+}
+.shark-btns{
+    margin: 50px 0;
+}
+.shark-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shark-btns button{
+    border-radius: 8px;
+background: #FFF; 
+width: 210px;
+height: 70px;
+ display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+}
+.shark-btns button:hover{
+    border-radius: 8px;
+background: var(--Secondary, #FF7A50);  
+box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+color: #FFF;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+svg path{
+    fill: #FFF;
+}
+transition: 1s;
+}
+.shark-card{
+    border-radius: 15px;
+background: #ffffff;
+width: 208px;
+height: 279px;
+flex-shrink: 0;
+}
+.shark-card img{
+    margin-left: 10px;
+}
+.shark-card h2{
+    color: var(--Primary, #363853);
+font-family: Rubik;
+font-size: 15px;
+font-weight: 400;
+margin: 30px 5px;
+}
+.shark-card  h3{
+    color: var(--Primary, #363853);
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ /* margin: 0 40px ; */
+ padding: 0 0 36px 0;
+ margin-left: 55px;
+}
+.shark-card button{
+    border-radius: 2px;
+background: var(--Secondary, #FF7A50);
+padding: 7px 15px ;
+margin: 0 20px ;
+margin-left: 30px;
+color: #FFF;
+font-family: Rubik;
+font-size: 15px;
+font-weight: 400;
+}
+.img img {
+margin-left: 8px;
+}
+.shark-card{
+    position: relative;
+}
+.img{
+    position: absolute;
+    bottom: 125px;
+}
+.shark-carts{
+    display: flex;
+    justify-content: space-between;
+}
+.divv img {
+    margin-left: 450px;
+    margin-top: 90px;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+#stay {
+    padding-top: 30px;
+}
+.stay {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.stay-text h1 {
+    color: var(--Primary, #363853);
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+text-transform: capitalize;
+}
+.stay-text h1 span {
+    color: var(--Secondary, #FF7A50);
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+text-transform: capitalize;
+}
+.stay-text p {
+    color: #363853;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px; 
+margin: 20px 0;
+}
+.fast {
+    display: flex;
+    align-items: center;
+}
+.fast h4 {
+    color: #363853;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-transform: capitalize;
+margin: 10px 0;
+}
+.stay-text button {
+    color: #FFF;
+font-size: 20px;
+font-weight: 400;
+border-radius: 30px 30px 1px 30px;
+background: var(--Secondary, #FF7A50);
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+padding: 10px 30px;
+margin-top:20px ;
+}
+/* ////////////////////////////////// */
+
+
+#wrap {
+    padding-top: 50px;
+}
+.wrap h2 {
+    color: var(--Primary, #363853);
+font-size: 36px;
+font-weight: 500;
+line-height: 30px;
+text-transform: capitalize;
+text-align: center;
+}
+.wrap h2 span {
+    color: var(--Secondary, #FF7A50);
+font-size: 36px;
+font-weight: 500;
+line-height: 30px;
+text-transform: capitalize;
+}
+.food {
+    margin: 30px 0;
+}
+.food h4 {
+display: flex;
+align-items: center;
+gap: 10px;
+} 
+.food h3 {
+    color: var(--Primary, #363853);
+font-size: 20px;
+font-weight: 400;
+line-height: 30px; 
+margin: 10px 0;
+}
+.food h4 span {
+        color: var(--Primary, #363853);
+    font-size: 25px;
+    font-weight:90;
+    line-height:10px;
+    color: #FF6838;
+} 
+.iconka{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.food h4 button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px 20px 0px 20px;
+background: var(--Secondary, #FF7A50);
+box-shadow: 0px 5px 12px 0px rgba(255, 104, 56, 0.19);
+}
+.foood {
+    display: flex;
+gap: 90px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* ////////////////////////////////////////////// */
+
+#say {
+    padding-top: 50px;
+}
+.say {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.say-text h2 {
+    color: var(--Secondary, #171616);
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+text-transform: capitalize;
+} 
+.say-text h2 span {
+    color: var(--Secondary, #FF7A50);
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+text-transform: capitalize;
+}
+
+.say-text p {
+    color: #363853;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin: 20px 0;
+}
+.google {
+    display: flex;
+    gap: 20px;
+}
+/* THE END  */
+#title {
+    margin: 30px 0;
+}
+.container h1{
+    text-align: center;
+}
+.container span{
+    color: var(--Secondary, #FF7A50);
+font-family: Rubik;
+font-size: 36px;
+font-weight: 500;
+letter-spacing: 0.5px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */   
+    gap: 100px;
+    padding: 80px 0;
+}
+.title-text h6{
+    color: var(--Primary, #363853);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 45px; 
+letter-spacing: 0.5px;
+width: 573px;
+height: 206px;
+flex-shrink: 0;
+/* margin-bottom: 200px; */
+}
+.jole{
+    margin-top: 150px;
+}
+.jole h4{
+    color: var(--Secondary, #FF7A50);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 500;
+margin: 20px 0;
+
+}
+.jole h5{
+    color: #AAA;
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+margin-top: 0px;
+}
+.jole-img {
+display: flex;
+margin: 0 0 70px 0;
+margin-left: 450px; 
+gap: 20px;
+}
+
+
+
+
+
